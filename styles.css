@@ -1,0 +1,91 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f8f9fa; /* Light gray background */
+}
+
+header {
+    background-color: #4caf50; /* Green header */
+    color: #fff;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #4caf50; /* Green footer */
+    color: #fff;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+}
+
+.game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttons {
+    margin: 20px 0;
+}
+
+.game-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    background-color: #2196f3; /* Blue buttons */
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+.game-button:hover {
+    background-color: #0b7dda; /* Darker blue on hover */
+}
+
+/* Number Guessing Game */
+#startButton, #guessButton {
+    background-color: #ffc107; /* Yellow buttons */
+    color: #212529;
+}
+
+#startButton:hover, #guessButton:hover {
+    background-color: #ffca28; /* Lighter yellow on hover */
+}
+
+/* Rock, Paper, Scissors Game */
+.move-button {
+    background-color: #f44336; /* Red buttons */
+}
+
+.move-button:hover {
+    background-color: #d32f2f; /* Darker red on hover */
+}
+
+/* Coin Toss Game */
+#tossButton {
+    background-color: #e91e63; /* Pink button */
+}
+
+#tossButton:hover {
+    background-color: #c2185b; /* Darker pink on hover */
+}
